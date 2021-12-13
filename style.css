@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  background-image: url(./bg-desktop.svg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.icons {
+  display: inline-flex;
+  margin: 0 45px 20px 0;
+}
+
+.logo img {
+  height: 30px;
+  margin: 20px 0 20px 40px;
+}
+
+.side-column {
+  margin: 45px 60px 40px 30px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600px;
+  font-size: 2em;
+  color: white;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.607);
+}
+button {
+  color: hsl(257, 40%, 49%);
+  border-radius: 40px;
+  border-color: hsl(257, 40%, 49%);
+  padding: 5px 25px;
+  font-size: small;
+  font-weight: normal;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+i.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 13px;
+  padding: 5px 6px;
+}
+
+i.fab:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(./bg-mobile.svg);
+    background-size: contain;
+    background-position: top;
+  }
+
+  .illustration {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .attribution {
+    font-size: 5px;
+  }
+
+  i.fab {
+    text-align: center;
+  }
+
+  .logo {
+    margin-right: 27vh;
+    margin-top: 10px;
+  }
+
+  .side-column {
+    margin: 20px 30px;
+  }
+  button {
+    width: 70%;
+    margin: 10px 0;
+    padding: 10px 30px;
+  }
+  .icons {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .icons {
+    float: right;
+  }
+}
