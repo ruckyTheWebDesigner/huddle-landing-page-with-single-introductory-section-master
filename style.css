@@ -85,7 +85,7 @@ i.fab:hover {
 
   .illustration {
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
   }
   .attribution {
     font-size: 5px;
@@ -97,11 +97,11 @@ i.fab:hover {
 
   .logo {
     margin-right: 27vh;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .side-column {
-    margin: 20px 30px;
+    margin: 10px 30px;
   }
   button {
     width: 70%;
